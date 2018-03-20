@@ -2,11 +2,11 @@
 
 $textToEncrypt = "Test";
 
-$encryptionMethod = "AES-256-CBC";  // AES is used by the U.S. gov't to encrypt top secret documents.
+$encryptionMethod = "AES-256-CBC";  //Used by various companies to protect their users data
 
-$secretHash = "random+hash";
+$secretHash = "random+hash"; //Change this
 
-$iv = "16testiv++++++++";
+$iv = "16testiv++++++++"; //Change this to a 16byte random characters
 
 
 
